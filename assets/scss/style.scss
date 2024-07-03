@@ -1,0 +1,1422 @@
+a {
+    text-decoration: none;
+}
+
+.homebar {
+    background-image: url(../images/homebar_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    // background-position: center;
+    // padding-bottom: 120px;
+    padding: 220px 0;
+    position: relative;
+    z-index: 3;
+
+    nav {
+        background-color: rgba(80, 123, 184, 0.6);
+        // background-color: rgba(115, 158, 277, 0.6) ;
+        // box-shadow: 0px 8px 10px 0 rgba(46, 162, 208, .1);
+        box-shadow: 0px -1px 10px 0 rgba(0,0,0,.1);
+
+        .navbar-nav {
+            
+            .nav-item {
+                padding: 0 30px;
+
+                a {
+                    color: white;
+                    font-size: 16px;
+                    font-family: "Poppins", sans-serif;
+                    font-weight: 600;
+                    font-style: normal;
+                }
+
+                .fa-magnifying-glass {
+                    margin-top: 13px;
+                    font-size: 17px;
+                }
+            }
+        }
+    }
+
+    h3 {
+        color: white;
+        font-size: 90px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        padding-top: 50px;
+
+    }
+
+    p {
+        color: white;
+        font-size: 38px;
+        line-height: 45px;
+        // max-width: 700px;
+        font-family: "Nunito", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        padding: 25px 0 28px;
+    }
+
+    .order-now {
+        color: white;
+        // min-width: 150px;
+        background-color: #edc315;
+        text-align: center;
+        align-items: center;
+        display: inline-block;
+        padding: 13px 70px;
+        font-size: 18px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        transition: all .3s ease-in-out;
+        border: 1px solid #edc315;
+        border-radius: 30px;
+
+        &:hover {
+            color: #edc315;
+            background-color: transparent;
+        }
+    }
+}
+
+.pet-care {
+    background-color: #739ee3;
+    padding: 100px 0;
+    position: relative;
+
+
+    .abs_box {
+        position: absolute;
+        left: 0;
+        top: -5%;
+
+    }
+
+    .abs_box_1 {
+        position: absolute;
+        right: 0;
+        top: -10%;
+    }
+
+    .abs_box_2 {
+        position: absolute;
+        bottom: 1%;
+        right: 12%;
+    }
+
+    h3 {
+        color: white;
+        font-size: 68px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        position: relative;
+        z-index: 2;
+    }
+
+    p {
+        position: relative;
+        z-index: 2;
+        color: white;
+        font-size: 36px;
+        line-height: 45px;
+        max-width: 1000px;
+        margin: 30px auto 90px;
+        // max-width: 700px;
+        font-family: "Nunito", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    h5 {
+        color: white;
+        font-size: 40px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        padding-top: 18px;
+    }
+
+    h6 {
+        color: white;
+        font-size: 21px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    img {
+        position: relative;
+        z-index: 2;
+    }
+}
+
+.outlet {
+    background-image: url(../images/outlet.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    // background-position: center;
+    // height: 100vh;
+    padding: 220px 0 220px;
+    position: relative;
+
+    .abs_box {
+        position: absolute;
+        top: -1%;
+        left: 7%;
+    }
+
+    h3 {
+        color: white;
+        font-size: 70px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+
+    }
+
+    p {
+        color: white;
+        font-size: 38px;
+        line-height: 45px;
+        max-width: 1000px;
+        margin: 20px auto 30px;
+        // max-width: 700px;
+        font-family: "Nunito", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        padding: 22px 0 80px;
+    }
+
+    .rcircle {
+        width: 250px;
+        height: 250px;
+        border: 10px solid white;
+        border-radius: 50%;
+        margin: 0px auto;
+
+        .text {
+            h5 {
+                color: white;
+                font-size: 62px;
+                font-family: "Poppins", sans-serif;
+                font-weight: 700;
+                font-style: normal;
+                padding-top: 50px;
+                text-align: center;
+            }
+
+            h6 {
+                color: white;
+                font-size: 28px;
+                font-family: "Poppins", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                text-align: center;
+            }
+        }
+    }
+}
+
+.orders {
+    background-color: #5380c1;
+    padding: 220px 0 220px;
+    position: relative;
+
+    .abs_box {
+        position: absolute;
+        bottom: 10%;
+        left: 16%;
+    }
+
+    .abs_box_1 {
+        position: absolute;
+        top: 10%;
+        right: 16%;
+    }
+
+    .abs_box_2 {
+        position: absolute;
+        top: 10%;
+        left: 16%;
+    }
+
+    .abs_box_3 {
+        position: absolute;
+        bottom: -2%;
+        right: 16%;
+        z-index: 3;
+    }
+
+
+    h3 {
+        color: white;
+        font-size: 56px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    p {
+        color: white;
+        font-size: 35px;
+        line-height: 45px;
+        // max-width: 571px;
+        font-family: "Nunito", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        padding: 15px 0 20px;
+    }
+
+    .order-now {
+        color: white;
+        // min-width: 150px;
+        background-color: #edc315;
+        text-align: center;
+        align-items: center;
+        display: inline-block;
+        padding: 13px 70px;
+        font-size: 18px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        transition: all .3s ease-in-out;
+        border: 1px solid #edc315;
+        border-radius: 30px;
+
+        &:hover {
+            color: #edc315;
+            background-color: transparent;
+        }
+    }
+
+
+}
+
+.we-care {
+    background-color: #739ee3;
+    padding: 220px 0 220px;
+    position: relative;
+
+    .abs_box {
+        position: absolute;
+        bottom: 10%;
+        left: 16%;
+    }
+
+    .abs_box_1 {
+        position: absolute;
+        top: 10%;
+        right: 16%;
+    }
+
+    .abs_box_2 {
+        position: absolute;
+        top: 10%;
+        left: 16%;
+    }
+
+    .abs_box_3 {
+        position: absolute;
+        bottom: 18%;
+        right: 16%;
+    }
+
+
+
+    h3 {
+        color: white;
+        font-size: 56px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    p {
+        color: white;
+        font-size: 35px;
+        line-height: 45px;
+        // max-width: 571px;
+        font-family: "Nunito", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        padding: 15px 0 20px;
+    }
+
+    .order-now {
+        color: white;
+        // min-width: 150px;
+        background-color: #edc315;
+        text-align: center;
+        align-items: center;
+        display: inline-block;
+        padding: 13px 70px;
+        font-size: 18px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        transition: all .3s ease-in-out;
+        border: 1px solid #edc315;
+        border-radius: 30px;
+
+        &:hover {
+            color: #edc315;
+            background-color: transparent;
+        }
+    }
+
+
+}
+
+.pricing {
+    padding: 40px 0 70px;
+    background-color: #5380c1;
+
+    h3 {
+        color: white;
+        font-size: 55px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        padding-top: 20px;
+    }
+
+    p {
+        color: white;
+        font-size: 27px;
+        line-height: 45px;
+        max-width: 700px;
+        margin: 20px auto 40px;
+        font-family: "Nunito", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .card {
+        // margin-top: 30px;
+        max-width: 23rem;
+        margin: 30px auto 0;
+        border-radius: 12px;
+
+        .card-body {
+            h3 {
+                font-family: "Poppins", sans-serif;
+                font-weight: 700;
+                font-style: normal;
+                font-size: 40px;
+                color: #739ee3;
+                padding: 10px 0 22px;
+            }
+
+            h5 {
+                font-family: "Poppins", sans-serif;
+                font-weight: 700;
+                font-style: normal;
+                color: #739ee3;
+                padding-top: 30px;
+                font-size: 46px;
+            }
+
+            p {
+                font-family: "Poppins", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                color: #739ee3;
+                font-size: 21px;
+                line-height: 30px;
+            }
+
+            .order-now {
+                color: white;
+                // min-width: 150px;
+                background-color: #edc315;
+                text-align: center;
+                align-items: center;
+                display: inline-block;
+                padding: 11px 80px;
+                font-size: 18px;
+                font-family: "Poppins", sans-serif;
+                font-weight: 700;
+                font-style: normal;
+                transition: all .3s ease-in-out;
+                border: 1px solid #edc315;
+                border-radius: 30px;
+
+                &:hover {
+                    color: #edc315;
+                    background-color: transparent;
+                }
+            }
+
+        }
+
+
+
+    }
+
+}
+
+.pet-food {
+    background-color: #739ee3;
+    padding: 20px 0 60px;
+    position: relative;
+    z-index: 1;
+
+    .abs_box {
+        position: absolute;
+        right: 0;
+        top: 23%;
+    }
+
+    .abs_box_left {
+        position: absolute;
+        left: 0;
+        bottom: 8%;
+    }
+
+    h3 {
+        color: white;
+        font-size: 70px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        padding-top: 60px;
+        text-align: center;
+    }
+
+    p {
+        color: white;
+        font-size: 29px;
+        line-height: 38px;
+        max-width: 700px;
+        // line-height: 60px;
+        margin: 30px auto 80px;
+        font-family: "Poppins", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+    }
+
+    h5 {
+        color: white;
+        font-size: 48px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    h6 {
+        color: white;
+        font-size: 21px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        padding-bottom: 40px;
+
+    }
+
+    .abs_blue {
+        position: absolute;
+        bottom: -22%;
+        right: 0%;
+        z-index: 2;
+    }
+}
+
+.docter {
+    background-image: url(../images/section_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    // height: 100vh;
+    padding: 220px 0;
+    position: relative;
+    z-index: 1;
+
+    p {
+        text-align: center;
+        color: white;
+        font-size: 58px;
+        line-height: 72px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        padding-top: 150px;
+    }
+
+    h3 {
+        color: white;
+        font-size: 62px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        padding-top: 60px;
+        text-align: center;
+    }
+}
+
+.footer {
+    padding-bottom: 50px;
+    width: 100%;
+    background-color: #343434;
+    padding-top: 3%;
+
+    h3 {
+        padding-bottom: 10px;
+    }
+
+    p {
+        margin-bottom: 30px;
+        font-size: 20px;
+        /* max-width: 900px; */
+    }
+
+    .footer-li {
+
+        line-height: 35px;
+        /* padding-left: 80px; */
+
+        a {
+            text-decoration: none;
+            color: white;
+            /* margin-left: 70px; */
+            font-size: 20px;
+        }
+    }
+
+    .icons {
+        a {
+            padding-top: 30px;
+            text-decoration: none;
+
+            i {
+                color: white;
+                border-radius: 50px;
+                padding: 0.5em 0.6em;
+                height: 12px;
+            }
+        }
+    }
+
+    i.bi {
+
+        color: black;
+
+        border-radius: 50px;
+        /* box-shadow: 0 0 2px #888; */
+        padding: 0.5em 0.6em;
+        background-color: white;
+        height: 12px;
+
+    }
+}
+
+//   =======
+
+@media screen and (max-width:1400px) {
+    .homebar {
+        padding: 150px 0;
+
+        h3 {
+            font-size: 75px;
+        }
+
+        p {
+            font-size: 33px;
+        }
+    }
+
+    .pet-care {
+        padding: 50px 0;
+
+        h3 {
+            font-size: 64px;
+        }
+
+        p {
+            max-width: 750px;
+            font-size: 28px;
+        }
+
+        h5 {
+            font-size: 38px;
+        }
+
+        h6 {
+            font-size: 20px;
+        }
+
+        .abs_box {
+            top: -10%;
+        }
+
+        .abs_box_1 {
+            top: -20%;
+        }
+
+        .abs_box_2 {
+            right: 5%;
+        }
+    }
+
+    .outlet {
+        padding: 100px 0;
+
+        .rcircle {
+            height: 220px;
+            width: 220px;
+
+            .text {
+                h5 {
+                    padding-top: 40px;
+                }
+            }
+        }
+    }
+
+    .orders {
+        padding: 180px 0;
+
+        p {
+            font-size: 30px
+        }
+    }
+
+    .we-care {
+        padding: 180px 0;
+
+        p {
+            font-size: 30px
+        }
+    }
+
+    .pet-food {
+        h6 {
+            font-size: 19px;
+            position: relative;
+            z-index: 2;
+        }
+
+        h5 {
+            font-size: 40px;
+        }
+    }
+
+    .docter {
+        padding: 150px 0;
+
+        p {
+            font-size: 50px;
+            line-height: 65px;
+        }
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .homebar {
+        nav {
+
+.navbar-brand{
+    img{
+        max-width: 50%;
+    }
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+            .fa-bars {
+                color: white;
+                font-size: 18px;
+            }
+
+            .navbar-nav {
+                .nav-item {
+                    padding: 0;
+                }
+            }
+        }
+
+        padding: 120px 0;
+
+        h3 {
+            padding-top: 115px;
+            font-size: 60px;
+        }
+
+        p {
+            font-size: 28px;
+            padding: 20px 0 25px;
+        }
+    }
+
+    .pet-care {
+        padding: 50px 0;
+
+        h3 {
+            font-size: 70px;
+        }
+
+        p {
+            max-width: 750px;
+            font-size: 28px;
+        }
+
+        h5 {
+            font-size: 38px;
+        }
+
+        h6 {
+            font-size: 20px;
+        }
+
+        .abs_box {
+            top: -10%;
+        }
+
+        .abs_box_1 {
+            position: absolute;
+            right: 0%;
+        }
+
+        .abs_box_2 {
+            right: 1%;
+        }
+    }
+
+    .outlet {
+        .rcircle {
+            height: 210px;
+            width: 210px;
+        }
+
+        p {
+            font-size: 32px;
+        }
+
+        h3 {
+            font-size: 70px;
+        }
+    }
+
+    .orders {
+        padding: 150px 0;
+
+        p {
+            font-size: 25px;
+        }
+
+        h3 {
+            font-size: 50px;
+        }
+    }
+
+    .we-care {
+        padding: 150px 0;
+
+        p {
+            font-size: 25px;
+        }
+
+        h3 {
+            font-size: 50px;
+        }
+    }
+
+    .pricing {
+        h3{
+            font-size: 70px;
+        }
+        .card {
+            .card-body {
+                p {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+    .pet-food {
+        h6 {
+            font-size: 18px;
+            max-width: 320px;
+        }
+    }
+
+    .docter {
+        padding: 100px 0;
+
+        p {
+            font-size: 50px;
+            line-height: 60px;
+        }
+
+        h3 {
+            font-size: 36px;
+            padding-top: 50px;
+        }
+    }
+
+    .footer {
+        p {
+            font-size: 19px;
+        }
+    }
+}
+
+@media screen and (max-width:992px) {
+    .homebar {
+        h3 {
+            padding-top: 100px;
+            font-size: 55px;
+        }
+
+        p {
+            font-size: 26px;
+        }
+    }
+
+    .pet-care {
+
+        h3 {
+            font-size: 55px;
+        }
+
+        p {
+            font-size: 26px;
+        }
+
+        h5 {
+            font-size: 36px;
+        }
+
+        h6 {
+            font-size: 16px;
+        }
+
+        .abs_box {
+            top: -12%;
+        }
+
+        .abs_box_1 {
+            top: -25%;
+        }
+
+        .abs_box_2 {
+            right: 3%;
+        }
+    }
+
+    .outlet {
+        p {
+            font-size: 28px;
+            padding: 16px 0 60px;
+        }
+    }
+
+    .orders {
+        p {
+            font-size: 18px;
+            line-height: 25px;
+        }
+
+        h3 {
+            font-size: 45px;
+        }
+
+        .order-now {
+            padding: 9px 50px;
+        }
+    }
+
+    .we-care {
+        p {
+            font-size: 18px;
+            line-height: 25px;
+        }
+
+        h3 {
+            font-size: 45px;
+        }
+
+        .abs_box_3 {
+            bottom: 14%;
+        }
+
+        .order-now {
+            padding: 9px 50px;
+        }
+    }
+
+    .pricing {
+        h3 {
+            font-size: 50px;
+        }
+
+        p {
+            font-size: 26px;
+        }
+
+        .card {
+            .card-body {
+                h3 {
+                    font-size: 35px;
+                    padding: 10px 0 10px;
+                }
+
+                h5 {
+                    font-size: 35px;
+                    padding-top: 20px;
+                }
+
+                p {
+                    font-size: 14px;
+                    line-height: 20px;
+                    margin: 0;
+                    padding: 5px 0 20px;
+                }
+
+                .order-now {
+                    padding: 9px 50px;
+                    font-size: 14px;
+
+                }
+            }
+        }
+    }
+
+    .pet-food {
+        h5 {
+            font-size: 28px;
+        }
+
+        h6 {
+            font-size: 16px;
+        }
+
+        .abs_box {
+            top: 12%;
+        }
+
+        .abs_box_left {
+            bottom: 7%;
+        }
+
+        .abs_blue {
+            bottom: -30%;
+        }
+    }
+
+    .docter {
+        padding: 50px 0;
+
+        p {
+            font-size: 38px;
+            line-height: 50px;
+        }
+    }
+
+}
+
+@media screen and (max-width:767px) {
+    .homebar {
+        p {
+            font-size: 20px;
+            line-height: normal;
+        }
+
+        h3 {
+            padding-top: 70px;
+            font-size: 40px;
+        }
+
+        .order-now {
+            padding: 8px 40px;
+            font-size: 16px;
+        }
+    }
+
+    .pet-care {
+        h3 {
+            font-size: 50px;
+        }
+
+        p {
+            font-size: 20px;
+            line-height: normal;
+        }
+
+        .abs_box {
+            max-width: 30%;
+            top: -2%;
+        }
+
+        .abs_box_1 {
+            max-width: 28%;
+            top: -6%;
+            right: 0;
+        }
+
+        h5 {
+            font-size: 32px;
+        }
+
+        h6 {
+            padding-bottom: 20px;
+        }
+    }
+
+    .outlet {
+        h3 {
+            font-size: 60px;
+        }
+
+        p {
+            font-size: 21px;
+            padding: 16px 0 60px;
+            line-height: normal;
+        }
+
+        .rcircle {
+            height: 165px;
+            width: 165px;
+
+            .text {
+                h5 {
+                    font-size: 46px;
+                    padding-top: 28px;
+                }
+
+                h6 {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+    .orders {
+        text-align: center;
+
+        .orders-1 {
+            order: 1;
+        }
+
+        .orders-2 {
+            order: 2;
+        }
+
+        h3 {
+            padding-top: 30px;
+        }
+
+        p {
+            line-height: normal;
+            font-size: 20px;
+        }
+
+        .order-now {
+            padding: 8px 40px;
+            font-size: 16px;
+        }
+    }
+
+    .we-care {
+        text-align: center;
+
+        h3 {
+            padding-top: 30px;
+        }
+
+        p {
+            line-height: normal;
+            font-size: 20px;
+        }
+
+        .order-now {
+            padding: 8px 40px;
+            font-size: 16px;
+        }
+    }
+
+    .pricing {
+        p {
+            font-size: 20px;
+            line-height: normal;
+        }
+    }
+
+    .pet-food {
+        text-align: center;
+
+        h3 {
+            font-size: 60px;
+        }
+
+        p {
+            font-size: 20px;
+            line-height: normal;
+        }
+
+        h6 {
+            font-size: 18px;
+            max-width: none;
+        }
+
+        h5 {
+            padding-top: 20px;
+        }
+
+        .abs_box {
+            top: 6%;
+        }
+
+        .abs_box_left {
+            bottom: 2%;
+        }
+
+        .abs_blue {
+            bottom: -15%;
+        }
+    }
+
+    .docter {
+        p {
+            font-size: 28px;
+            line-height: normal;
+        }
+    }
+
+    .footer {
+
+        h3 {
+            margin-top: 30px;
+        }
+    }
+}
+
+@media screen and (max-width:576px) {
+    .homebar {
+        padding: 100px 0 60px;
+
+        h3 {
+            padding-top: 50px;
+            font-size: 25px;
+        }
+
+        p {
+            font-size: 16px;
+            padding:5px 0 8px;
+        }
+
+        .order-now {
+            padding: 6px 30px;
+        }
+    }
+
+    .orders {
+        padding: 130px 0;
+
+        .order-now {
+            padding: 6px 30px;
+        }
+
+        .abs_box_3 {
+            position: absolute;
+            bottom: -2%;
+            right: 5%;
+            z-index: 3;
+            max-width: 50%;
+        }
+
+        .abs_box {
+            position: absolute;
+            bottom: 5%;
+            left: 5%;
+            max-width: 50%;
+        }
+
+        .abs_box_2 {
+            position: absolute;
+            top: 5%;
+            left: 5%;
+            max-width: 50%;
+        }
+
+        .abs_box_1 {
+            position: absolute;
+            top: 5%;
+            right: 5%;
+            max-width: 50%;
+        }
+    }
+
+    .pet-food {
+        h3 {
+            padding-top: 15px;
+            font-size: 45px;
+        }
+
+        p {
+            font-size: 18px;
+            margin: 20px auto 30px;
+        }
+
+        h5 {
+            font-size: 24px;
+            padding-top: 18px;
+        }
+
+        h6 {
+            padding-bottom: 25px;
+            font-size: 14px;
+        }
+
+        .abs_box {
+            top: 2%;
+            right: 0;
+            max-width: 50%;
+        }
+
+        .abs_blue {
+            bottom: -7%;
+            max-width: 50%;
+        }
+    }
+
+    .pricing {
+        p {
+            margin: 20px auto 30px;
+            font-size: 16px;
+        }
+
+        h3 {
+            font-size: 40px;
+        }
+
+        .card {
+            max-width: 20rem;
+            .card-body {
+                p {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+    .we-care {
+        padding: 130px 0;
+
+        .order-now {
+            padding: 6px 30px;
+        }
+
+        .abs_box_3 {
+            bottom: 6%;
+            max-width: 50%;
+        }
+
+        .abs_box {
+            position: absolute;
+            bottom: 3%;
+            left: -1%;
+            max-width: 50%;
+        }
+
+        .abs_box_2 {
+            position: absolute;
+            top: 5%;
+            left: 2%;
+            max-width: 50%;
+        }
+
+        .abs_box_1 {
+            position: absolute;
+            top: 5%;
+            right: 0%;
+            max-width: 50%;
+        }
+
+    }
+
+    .pet-care {
+        h3 {
+            font-size: 45px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: normal;
+            margin: 30px auto 50px;
+        }
+        .abs_box{
+            max-width: 36%;
+            top: 0%;
+        }
+        .abs_box_1{
+            display: none
+        }
+        .abs_box_2 {
+            right: 2%;
+            bottom: 0;
+            max-width: 50%;
+        }
+    }
+
+    .outlet {
+        padding: 80px 0 60px;
+
+        .rcircle {
+            height: 140px;
+            width: 140px;
+
+            .text {
+                h5 {
+                    font-size: 40px;
+                    padding-top: 18px;
+                }
+
+                h6 {
+                    font-size: 18px;
+                }
+            }
+        }
+
+        h3 {
+            font-size: 50px;
+        }
+
+        p {
+            font-size: 16px;
+            padding: 0px 0 20px;
+        }
+        .abs_box {
+          max-width: 50%;
+        }
+    }
+
+    .docter {
+        padding: 55px 0;
+        p {
+            padding-top: 50px;
+            font-size: 17px;
+        }
+
+        h3 {
+            font-size: 30px;
+            padding: 0;
+            // padding-top: 36px;
+        }
+
+    }
+}
